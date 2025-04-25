@@ -1,15 +1,27 @@
-html {
+body {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 50px;
     font-size: 20px;
     background-color: rgb(34, 34, 34);
 }
 
-body {
-font-family: sans-serif;
-color: white;
+hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 20px 0;
 }
 
-.main-header {
-font-size: 40px;
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    width: 200px;
 }
 
 a {
@@ -25,7 +37,7 @@ a:active {
     opacity: 0.5;
 }
 
-.red {
+.red-button {
 background-color: red;
 color: white;
 padding: 10px 20px;
@@ -38,15 +50,15 @@ cursor: pointer;
 transition: opacity 0.2s, color 0.2s, background-color 0.2s;
 }
 
-.red:hover {
+.red-button:hover {
 opacity: 0.75;
 }
 
-.red:active {
+.red-button:active {
 opacity: 0.5;
 }
 
-.blue {
+.blue-button {
 color: blue;
 border-color: blue;
 background-color: transparent;
@@ -59,11 +71,23 @@ cursor: pointer;
 transition: color 0.2s, background-color 0.2s, opacity 0.2s;
 }
 
-.blue:hover {
+.blue-button:hover {
 color: white;
 background-color: rgb(175, 175, 255);
 }
 
-.blue:active {
+.blue-button:active {
 opacity: 0.75;
+}
+
+.joker-container {
+display: flex;
+align-items: center;
+gap: 0px;
+
+}
+
+.joker-img {
+width: 1000px;
+height: auto;
 }
