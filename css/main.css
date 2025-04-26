@@ -1,4 +1,6 @@
 body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
     font-family: sans-serif;
     color: white;
     display: flex;
@@ -17,6 +19,11 @@ hr {
     margin: 20px 0;
 }
 
+section {
+    background-color: rgba(29, 29, 29, 0.9);
+    border-radius: 10px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -28,6 +35,12 @@ a {
     color: lightblue;
     transition: color 0.2s, opacity 0.2s;
 }
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
 
 a:hover {
     color: rgb(175, 175, 255);
@@ -79,13 +92,3 @@ background-color: rgb(175, 175, 255);
 .blue-button:active {
 opacity: 0.75;
 }
-
-div {
-display: flex;
-align-items: center;
-gap: 20px;
-
-}
-
-
-
