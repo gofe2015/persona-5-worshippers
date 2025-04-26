@@ -80,14 +80,10 @@ background-color: rgb(175, 175, 255);
 opacity: 0.75;
 }
 
-.joker-container {
+div {
 display: flex;
 align-items: center;
-gap: 0px;
+gap: 20px;
 
 }
 
-.joker-img {
-width: 1000px;
-height: auto;
-}
