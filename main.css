@@ -20,7 +20,7 @@ hr {
 img {
     max-width: 100%;
     height: auto;
-    display: flex;
+    display: block;
     width: 200px;
 }
 
@@ -86,4 +86,6 @@ align-items: center;
 gap: 20px;
 
 }
+
+
 
